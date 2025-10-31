@@ -1,0 +1,21 @@
+{
+  "name": "product-management-oop",
+  "version": "1.0.0",
+  "description": "Product Management System dengan OOP - Complete Implementation",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node test.js"
+  },
+  "keywords": [
+    "javascript",
+    "oop",
+    "design-patterns",
+    "es6",
+    "factory",
+    "singleton",
+    "observer"
+  ],
+  "author": "",
+  "license": "MIT"
+}
