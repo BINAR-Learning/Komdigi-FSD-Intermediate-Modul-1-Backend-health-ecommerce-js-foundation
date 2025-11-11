@@ -13,10 +13,10 @@ const Vitamin = require("./models/Vitamin");
 const Supplement = require("./models/Supplement");
 const ProductFactory = require("./services/ProductFactory");
 
-console.log("🏥 === Health E-Commerce - Product Management OOP ===\n");
+console.log(" === Health E-Commerce - Product Management OOP ===\n");
 
 // Test 1: Base Product class
-console.log("📦 1. Testing Product Base Class (Encapsulation):");
+console.log(" 1. Testing Product Base Class (Encapsulation):");
 const product = new Product(
   "Termometer Digital",
   75000,
@@ -27,7 +27,7 @@ const product = new Product(
 console.log(product.getInfo());
 console.log(
   `   Check stock untuk 5 units: ${
-    product.checkStock(5) ? "✅ Available" : "❌ Not enough"
+    product.checkStock(5) ? " Available" : "Not enough"
   }`
 );
 console.log(
@@ -38,14 +38,14 @@ console.log(
 console.log("");
 
 // Test 2: Inheritance - Vitamin
-console.log("💊 2. Testing Inheritance (Vitamin extends Product):");
+console.log(" 2. Testing Inheritance (Vitamin extends Product):");
 const vitaminC = new Vitamin("Vitamin C 1000mg", 85000, 50, "PT Aiman", 1000);
 console.log(vitaminC.getInfo()); // Should show dosage!
 console.log(`   High dose vitamin? ${vitaminC.isHighDose() ? "Yes" : "No"}`);
 console.log("");
 
 // Test 3: Inheritance - Supplement
-console.log("🌿 3. Testing Inheritance (Supplement extends Product):");
+console.log(" 3. Testing Inheritance (Supplement extends Product):");
 const omega3 = new Supplement("Omega-3 Fish Oil", 200000, 25, "PT Aila", [
   "Fish Oil",
   "EPA",
@@ -56,7 +56,7 @@ console.log(`   Has EPA? ${omega3.hasIngredient("EPA") ? "Yes" : "No"}`);
 console.log("");
 
 // Test 4: Polymorphism
-console.log("🔄 4. Testing Polymorphism (Same interface, different outputs):");
+console.log(" 4. Testing Polymorphism (Same interface, different outputs):");
 function displayProduct(product) {
   console.log(`   ${product.getInfo()}`);
 }
@@ -65,7 +65,7 @@ displayProduct(omega3); // Supplement version
 console.log("");
 
 // Test 5: Factory Pattern
-console.log("🏭 5. Testing Factory Pattern:");
+console.log(" 5. Testing Factory Pattern:");
 const vitD = ProductFactory.createProduct("vitamin", {
   name: "Vitamin D3 2000 IU",
   price: 120000,
@@ -102,12 +102,12 @@ console.log(`   Bulk created: ${bulkProducts.length} products`);
 console.log("");
 
 // Test 6: toJSON untuk API response
-console.log("📤 6. Testing toJSON (untuk API responses):");
+console.log(" 6. Testing toJSON (untuk API responses):");
 console.log("   Product as JSON:", JSON.stringify(vitaminC.toJSON(), null, 2));
 console.log("");
 
-console.log("✅ All OOP tests passed!");
-console.log("\n📚 Next Steps:");
+console.log(" All OOP tests passed!");
+console.log("\n  Next Steps:");
 console.log("   → Modul 2: Convert these classes to Mongoose schemas");
 console.log("   → Modul 3: Use in Express controllers untuk CRUD API");
 console.log("   → Modul 4: Add User class dengan authentication");

@@ -39,7 +39,7 @@ const vitD = ProductFactory.createProduct("vitamin", {
 console.log(vitD.getInfo());
 console.log("");
 
-console.log("🎉 All tests completed!");
+console.log(" All tests completed!");
 console.log(
   "Next: These classes will be integrated dengan MongoDB di Modul 2!"
 );

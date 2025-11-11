@@ -1,6 +1,6 @@
-# 🏁 Starter Project - Product Management System (OOP)
+# Starter Project - Product Management System (OOP)
 
-## 📝 Deskripsi
+## Deskripsi
 
 Starter project untuk latihan JavaScript Lanjutan & OOP dalam konteks **Health E-Commerce Backend**.
 
@@ -12,9 +12,9 @@ Starter project untuk latihan JavaScript Lanjutan & OOP dalam konteks **Health E
 
 Lengkapi file-file dengan implementasi OOP concepts dan design patterns.
 
-## 🎯 Tugas
+## Tugas
 
-### ⚠️ 1. Lengkapi `models/Product.js`
+###  1. Lengkapi `models/Product.js`
 
 Buat base class Product dengan:
 
@@ -24,7 +24,7 @@ Buat base class Product dengan:
 - Method `getInfo()`, `calculateShipping()`, `checkStock(quantity)`
 - Observer support: `subscribe(observer)`, `notifyObservers(data)`
 
-### ⚠️ 2. Lengkapi `models/Vitamin.js`
+###  2. Lengkapi `models/Vitamin.js`
 
 Buat class Vitamin extends Product dengan:
 
@@ -32,7 +32,7 @@ Buat class Vitamin extends Product dengan:
 - Override `calculateShipping()` return 5000
 - Method `getDosageInfo()`
 
-### ⚠️ 3. Lengkapi `models/Supplement.js`
+###  3. Lengkapi `models/Supplement.js`
 
 Buat class Supplement extends Product dengan:
 
@@ -40,7 +40,7 @@ Buat class Supplement extends Product dengan:
 - Override `calculateShipping()` return 7500
 - Method `getIngredients()`
 
-### ⚠️ 4. Lengkapi `services/ProductFactory.js`
+###  4. Lengkapi `services/ProductFactory.js`
 
 Implement Factory Pattern:
 
@@ -48,7 +48,7 @@ Implement Factory Pattern:
 - Support types: 'vitamin', 'supplement'
 - Return appropriate class instance
 
-### ⚠️ 5. Lengkapi `services/Inventory.js`
+###  5. Lengkapi `services/Inventory.js`
 
 Implement Singleton Pattern:
 
@@ -56,7 +56,7 @@ Implement Singleton Pattern:
 - Private products array
 - Methods: `addProduct()`, `getAllProducts()`, `getProductsByCategory()`, `getTotalValue()`
 
-### ⚠️ 6. Lengkapi `services/OrderService.js`
+###  6. Lengkapi `services/OrderService.js`
 
 Implement Order Processing:
 
@@ -65,26 +65,26 @@ Implement Order Processing:
 - Update product stock
 - Return order details
 
-### ⚠️ 7. Lengkapi `observers/EmailNotifier.js`
+###  7. Lengkapi `observers/EmailNotifier.js`
 
 Implement Observer Pattern:
 
 - Method `update(data)` untuk receive notifications
 - Log email notification ketika stock berubah
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 node test.js
 ```
 
-Semua tests harus pass! ✅
+Semua tests harus pass!
 
-## 💡 Tips
+##  Tips
 
 1. Start dengan Product base class
 2. Test inheritance satu-satu
 3. Implement design patterns step-by-step
 4. Use finished-project untuk reference (jangan langsung copy!)
 
-**Selamat mengerjakan! 🎯🚀**
+**Selamat mengerjakan! **

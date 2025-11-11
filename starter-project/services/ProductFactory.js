@@ -1,5 +1,5 @@
 /**
- * ⚠️ FILE INI PERLU DILENGKAPI
+ *  FILE INI PERLU DILENGKAPI
  *
  * Product Factory (Design Pattern)
  * Centralized product creation untuk Health E-Commerce

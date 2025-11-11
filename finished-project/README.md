@@ -1,6 +1,6 @@
-# ✅ Finished Project - Product Management System (OOP)
+# Finished Project - Product Management System (OOP)
 
-## 📝 Deskripsi
+## Deskripsi
 
 Complete implementation Product Management System dengan OOP dan Design Patterns untuk **Health E-Commerce Backend**.
 
@@ -12,17 +12,17 @@ Complete implementation Product Management System dengan OOP dan Design Patterns
 
 Project ini bukan standalone - melainkan **foundation** untuk complete backend system!
 
-## 🎯 Fitur Lengkap
+## Fitur Lengkap
 
-- ✅ Base Product class dengan encapsulation
-- ✅ Vitamin & Supplement classes dengan inheritance
-- ✅ Polymorphic shipping calculations
-- ✅ Factory Pattern untuk product creation
-- ✅ Singleton Pattern untuk inventory management
-- ✅ Observer Pattern untuk stock notifications
-- ✅ Complete test coverage
+- Base Product class dengan encapsulation
+- Vitamin & Supplement classes dengan inheritance
+- Polymorphic shipping calculations
+- Factory Pattern untuk product creation
+- Singleton Pattern untuk inventory management
+- Observer Pattern untuk stock notifications
+- Complete test coverage
 
-## 🚀 Menjalankan
+## Menjalankan
 
 ```bash
 npm test
@@ -34,7 +34,7 @@ atau
 node test.js
 ```
 
-## 📚 Pembelajaran Kunci
+## Pembelajaran Kunci
 
 ### OOP Concepts Implemented:
 
@@ -49,7 +49,7 @@ node test.js
 - **Singleton:** Inventory single instance
 - **Observer:** Stock update notifications
 
-## 🎓 Code Highlights
+## Code Highlights
 
 Check implementations di:
 
@@ -59,6 +59,6 @@ Check implementations di:
 - `services/Inventory.js` - Singleton pattern
 - `observers/EmailNotifier.js` - Observer pattern
 
-**Selamat belajar! 🎯🚀**
+**Selamat belajar!**
 
 _Disusun oleh Pusbang Talenta Digital_

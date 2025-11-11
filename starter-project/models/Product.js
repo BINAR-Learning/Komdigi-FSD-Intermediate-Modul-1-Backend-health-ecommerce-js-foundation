@@ -1,5 +1,5 @@
 /**
- * ⚠️ FILE INI PERLU DILENGKAPI
+ *  FILE INI PERLU DILENGKAPI
  *
  * Product Class (OOP)
  * Base class untuk product management Health E-Commerce

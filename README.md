@@ -1,4 +1,4 @@
-# 🎯 health-ecommerce-js-foundation
+# health-ecommerce-js-foundation
 
 > **JavaScript Lanjutan & OOP untuk Health E-Commerce Backend**
 
@@ -10,20 +10,20 @@ Foundation JavaScript & OOP untuk membangun Health E-Commerce backend yang scala
 
 ---
 
-## 📦 Apa yang Ada di Repository Ini?
+## Apa yang Ada di Repository Ini?
 
 Repository ini berisi **2 versi project**:
 
 ```
 health-ecommerce-js-foundation/
 ├── README.md (Ini file yang kamu baca)
-├── starter-project/     # 📝 Untuk practice (dengan TODO)
+├── starter-project/     #  Untuk practice (dengan TODO)
 │   ├── README.md
 │   ├── package.json
 │   ├── models/
 │   ├── services/
 │   └── test.js
-└── finished-project/    # ✅ Reference implementation
+└── finished-project/    #  Reference implementation
     ├── README.md
     ├── package.json
     ├── models/
@@ -38,7 +38,7 @@ health-ecommerce-js-foundation/
 
 ---
 
-## 🚀 Quick Start (Untuk Newbie)
+## Quick Start (Untuk Newbie)
 
 ### Option 1: Practice dengan Starter Project
 
@@ -63,7 +63,7 @@ npm test
 
 ### Option 2: Lihat Reference Implementation
 
-```bash
+````bash
 # 1. Clone repository (jika belum)
 git clone https://github.com/your-username/health-ecommerce-js-foundation.git
 
@@ -79,21 +79,20 @@ npm install
 # 5. Jalankan tests
 npm test
 
-# Semua tests akan pass! ✅
-```
+# Semua tests akan pass! ```
 
 ---
 
-## 🎯 Apa yang Akan Kamu Pelajari?
+##  Apa yang Akan Kamu Pelajari?
 
 **Modul 1** adalah foundation untuk semua backend modules!
 
 ### Konsep yang Dipelajari:
 
-- ✅ **ES6+ Features** - async/await, destructuring, spread/rest, arrow functions
-- ✅ **OOP Principles** - Class, Inheritance, Encapsulation, Polymorphism
-- ✅ **Design Patterns** - Factory, Singleton, Observer
-- ✅ **Clean Code** - Organized, reusable, maintainable
+-  **ES6+ Features** - async/await, destructuring, spread/rest, arrow functions
+-  **OOP Principles** - Class, Inheritance, Encapsulation, Polymorphism
+-  **Design Patterns** - Factory, Singleton, Observer
+-  **Clean Code** - Organized, reusable, maintainable
 
 ### Apa yang Dibangun:
 
@@ -105,19 +104,21 @@ npm test
 
 ---
 
-## 📁 Struktur Starter Project
+##  Struktur Starter Project
 
-```
+````
+
 starter-project/
-├── README.md           # Setup guide
-├── package.json        # Dependencies
-├── test.js            # Test script (working!)
-├── models/            # ⚠️ TODO: Implement classes
-│   ├── Product.js     # Base class
-│   ├── Vitamin.js     # Extends Product
-│   └── Supplement.js  # Extends Product
-└── services/          # ⚠️ TODO: Design patterns
-    └── ProductFactory.js  # Factory pattern
+├── README.md # Setup guide
+├── package.json # Dependencies
+├── test.js # Test script (working!)
+├── models/ # TODO: Implement classes
+│ ├── Product.js # Base class
+│ ├── Vitamin.js # Extends Product
+│ └── Supplement.js # Extends Product
+└── services/ # TODO: Design patterns
+└── ProductFactory.js # Factory pattern
+
 ```
 
 **TODOs:**
@@ -129,31 +130,33 @@ starter-project/
 
 ---
 
-## 📁 Struktur Finished Project
+##  Struktur Finished Project
 
 ```
+
 finished-project/
-├── README.md           # Setup guide + explanations
-├── package.json        # Dependencies
-├── test.js            # Complete test suite
-├── models/            # ✅ Complete implementations
-│   ├── Product.js     # Base class with full methods
-│   ├── Vitamin.js     # Inheritance example
-│   └── Supplement.js  # Another inheritance
-└── services/          # ✅ Design patterns
-    └── ProductFactory.js  # Factory pattern complete
-```
+├── README.md # Setup guide + explanations
+├── package.json # Dependencies
+├── test.js # Complete test suite
+├── models/ # Complete implementations
+│ ├── Product.js # Base class with full methods
+│ ├── Vitamin.js # Inheritance example
+│ └── Supplement.js # Another inheritance
+└── services/ # Design patterns
+└── ProductFactory.js # Factory pattern complete
+
+````
 
 **All implemented:**
 
-- ✅ Product class dengan encapsulation (private fields)
-- ✅ Vitamin & Supplement dengan inheritance
-- ✅ Factory pattern untuk product creation
-- ✅ All tests passing
+-  Product class dengan encapsulation (private fields)
+-  Vitamin & Supplement dengan inheritance
+-  Factory pattern untuk product creation
+-  All tests passing
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Run Tests
 
@@ -163,28 +166,28 @@ npm test
 
 # atau
 node test.js
-```
+````
 
 **Starter Output:**
 
 ```
-⚠️  TODO: Implement Product class
-⚠️  TODO: Implement Vitamin class
+  TODO: Implement Product class
+  TODO: Implement Vitamin class
 ```
 
 **Finished Output:**
 
 ```
-✅ Product class test passed
-✅ Vitamin inheritance test passed
-✅ Supplement inheritance test passed
-✅ Factory pattern test passed
-🎉 All tests passed!
+ Product class test passed
+ Vitamin inheritance test passed
+ Supplement inheritance test passed
+ Factory pattern test passed
+ All tests passed!
 ```
 
 ---
 
-## 🔗 Hubungan dengan Modul Lain
+## Hubungan dengan Modul Lain
 
 **Modul 1 (This!)** → Foundation OOP  
 **Modul 2** → Classes become Mongoose schemas  
@@ -196,7 +199,7 @@ node test.js
 
 ---
 
-## 💡 Tips Sukses
+## Tips Sukses
 
 1. **Start dengan starter-project** - Practice makes perfect!
 2. **Kerjakan step-by-step** - Don't rush
@@ -206,7 +209,7 @@ node test.js
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Error: "Cannot find module"
 
@@ -230,7 +233,7 @@ npm test
 
 ---
 
-## 📚 Resources
+## Resources
 
 - [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [JavaScript.info](https://javascript.info/)
@@ -238,18 +241,18 @@ npm test
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 After completing this module:
 
-1. ✅ **Modul 2** - Convert these classes to MongoDB schemas
-2. ✅ **Modul 3** - Use in Express API
-3. ✅ **Modul 4** - Add authentication
-4. ✅ **Modul 5** - External integrations
+1.  **Modul 2** - Convert these classes to MongoDB schemas
+2.  **Modul 3** - Use in Express API
+3.  **Modul 4** - Add authentication
+4.  **Modul 5** - External integrations
 
 ---
 
-**Happy Learning! 🎯**
+**Happy Learning! **
 
 _Part of Health E-Commerce Backend Series_  
 _Modul 1 - JavaScript Fundamentals & OOP_

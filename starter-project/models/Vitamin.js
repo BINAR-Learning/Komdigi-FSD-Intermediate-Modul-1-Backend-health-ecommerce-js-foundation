@@ -1,5 +1,5 @@
 /**
- * ⚠️ FILE INI PERLU DILENGKAPI
+ * FILE INI PERLU DILENGKAPI
  *
  * Vitamin Class - Extends Product
  * Implementation Inheritance untuk category-specific products
