@@ -1,4 +1,4 @@
-# health-ecommerce-js-foundation
+# Komdigi-FSD-Intermediate-Modul-1-Backend-health-ecommerce-js-foundation
 
 > **JavaScript Lanjutan & OOP untuk Health E-Commerce Backend**
 
@@ -15,7 +15,7 @@ Foundation JavaScript & OOP untuk membangun Health E-Commerce backend yang scala
 Repository ini berisi **2 versi project**:
 
 ```
-health-ecommerce-js-foundation/
+Komdigi-FSD-Intermediate-Modul-1-Backend-health-ecommerce-js-foundation/
 ├── README.md (Ini file yang kamu baca)
 ├── starter-project/     #  Untuk practice (dengan TODO)
 │   ├── README.md
@@ -44,10 +44,10 @@ health-ecommerce-js-foundation/
 
 ```bash
 # 1. Clone repository ini
-git clone https://github.com/your-username/health-ecommerce-js-foundation.git
+git clone https://github.com/your-username/Komdigi-FSD-Intermediate-Modul-1-Backend-health-ecommerce-js-foundation.git
 
 # 2. Masuk ke folder repository
-cd health-ecommerce-js-foundation
+cd Komdigi-FSD-Intermediate-Modul-1-Backend-health-ecommerce-js-foundation
 
 # 3. Masuk ke starter-project
 cd starter-project
@@ -65,10 +65,10 @@ npm test
 
 ````bash
 # 1. Clone repository (jika belum)
-git clone https://github.com/your-username/health-ecommerce-js-foundation.git
+git clone https://github.com/your-username/Komdigi-FSD-Intermediate-Modul-1-Backend-health-ecommerce-js-foundation.git
 
 # 2. Masuk ke folder repository
-cd health-ecommerce-js-foundation
+cd Komdigi-FSD-Intermediate-Modul-1-Backend-health-ecommerce-js-foundation
 
 # 3. Masuk ke finished-project
 cd finished-project
@@ -209,7 +209,7 @@ node test.js
 
 ---
 
-##  Troubleshooting
+## Troubleshooting
 
 ### Error: "Cannot find module"
 
