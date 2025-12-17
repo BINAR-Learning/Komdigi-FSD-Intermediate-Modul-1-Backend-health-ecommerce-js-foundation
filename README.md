@@ -2,7 +2,7 @@
 
 > **JavaScript Lanjutan & OOP untuk Health E-Commerce Backend**
 
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-green)](https://nodejs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)](https://developer.mozilla.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
